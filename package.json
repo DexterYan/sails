@@ -23,7 +23,8 @@
     "grunt-contrib-less": "0.11.1",
     "grunt-contrib-coffee": "~0.10.1",
     "backbone" : "1.1.2",
-    "underscore"  :  "1.7.0"
+    "underscore"  :  "1.7.0",
+    "requirejs" : "2.1.15"
   },
   "scripts": {
     "start": "node app.js",
