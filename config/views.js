@@ -30,11 +30,11 @@ module.exports.views = {
   *                                                                           *
   ****************************************************************************/
 
-  engine: 'ejs',
-  // engine: {
-  //   ext: 'html',
-  //   fn: require('ejs').renderFile
-  // },
+  //engine: 'ejs',
+  engine: {
+    ext: 'html',
+    fn: require('ejs').renderFile
+  },
 
 
   /****************************************************************************
@@ -60,7 +60,7 @@ module.exports.views = {
   * omitted)                                                                  *
   *                                                                           *
   ****************************************************************************/
-   layout: 'layout'  
+   //layout: 'layout'  
   /****************************************************************************
   *                                                                           *
   * Using Multiple Layouts with EJS                                           *
