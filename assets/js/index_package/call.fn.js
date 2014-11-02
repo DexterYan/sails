@@ -1,6 +1,5 @@
-//var Backbone = require('backbone');
-function load_home_mainview(page,args){
+function load_home_mainview(page){
     if (page == 'index'){
-        new index_view();
+        new Index_View();
     }   
 }

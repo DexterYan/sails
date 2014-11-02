@@ -15,6 +15,3 @@ var Index_View = Backbone.View.extend({
       $(this.el).append("<h2>hello world</h2>");
     }
 })
-$(function() {
-        new Index_View();
- });
