@@ -38,7 +38,6 @@ require(['backbone',
 	new Router();
 
 	Backbone.history.start({
-	 	pushState: true
 	});
 })
 

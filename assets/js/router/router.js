@@ -1,6 +1,7 @@
 var Router = Backbone.Router.extend({
 	routes:{
-		"(/)" : "indexPage"
+		"(/)" : "indexPage",
+		'!/topic' : 'renderList'
 	},
 
 	firstLoad:true,
@@ -11,5 +12,8 @@ var Router = Backbone.Router.extend({
 	indexPage: function(){
 		console.log("index start");
 		        new Index_View();
+	},
+	renderList : function() {  
+	        	console.log('渲染列表方法');  
 	}
 })
