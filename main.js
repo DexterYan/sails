@@ -4,6 +4,7 @@ var config = require.config({
 		jquery: 		"assets/js/dependencies/jquery-2.1.1.min", 		
 		underscore: 	"assets/js/dependencies/underscore", 
 		Index_View: 	"assets/js/index_package/index_view", 
+		First_View: 	"assets/js/index_package/first_view", 
 		router: 		"assets/js/router/router", 
 			
 	},
@@ -14,12 +15,16 @@ var config = require.config({
 			exports:'Backbone'
 		}, 
 		router: {
-			deps: ['backbone','jquery','Index_View'],
+			deps: ['backbone','jquery','Index_View','First_View'],
 			exports:'Router'
 		}, 
 		Index_View: {
 			deps: ['backbone', 'jquery'],
 			exports:'Index_View'
+		}, 
+		First_View: {
+			deps: ['backbone', 'jquery'],
+			exports:'First_View'
 		}, 
 	},
 	wrapShim: true,
@@ -30,7 +35,8 @@ require(['backbone',
 	'jquery',
 	'underscore',
 	'router',
-	'Index_View'],
+	'Index_View',
+	'First_View'],
 	function(Backbone,jquery, router){
 	
 	console.log('main.js ready!');
