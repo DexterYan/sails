@@ -8,11 +8,8 @@ var Index_View = Backbone.View.extend({
 		_.bindAll(this, 'render');
 		this.render();
 	},
-	hello: function(e){
-        alert("hello");
-    },
-    render: function(){
-      $(this.el).append("<h2>hello world</h2>");
-      $('.ui.dropdown').dropdown();
-    }
+	
+	render: function(){
+		
+	}
 })
