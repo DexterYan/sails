@@ -1,25 +1,34 @@
 <!-- Default home page -->
 <link type="text/css" href='/styles/semantic.css' rel='stylesheet'/>
+<link type="text/css" href='/styles/main.css' rel='stylesheet'/>
 <script data-main="/js/main-built.min" src="/js/dependencies/require.js"></script>
 <body>
-	<div class="ui inverted menu">
-  	<a class="active item">
-    		<i class="home icon"></i> Home
-  	</a>
-  	<a class="item">
-    		<i class="mail icon"></i> Messages
-  	</a>
-  	<a class="item">
-    		<i class="user icon"></i> Friends
-  	</a>
+	<div class="ui inverted menu top-bar">
+	  	<a class="item">
+	    		Dexter Yan
+	  	</a>
+	  	<a class="item">
+	    		<i class="lightbulb icon"></i> Overview
+	  	</a>
+	  	<a class="item">
+	    		<i class="pencil icon"></i> Design
+	  	</a>
+	  	<a class="item">
+	    		<i class="mail icon"></i> Contect
+	  	</a>
+	  	<a class="right item">
+	    		<i class="globe icon"></i> Newsboard
+	  	</a>
 	</div>
-	<div class="ui selection dropdown">
-  <input type="hidden" name="gender">
-  <div class="default text">Gender</div>
-  <i class="dropdown icon"></i>
-  <div class="menu">
-    <div class="item" data-value="1">Male</div>
-    <div class="item" data-value="0">Female</div>
-  </div>
-</div>
+
+	<div class="ui top attached segment scroll-bar" id="one">
+	 	<p>This segment is on top</p>
+	</div>
+	<div class="ui attached segment scroll-bar" id="two">
+	 	<p>This segment is attached on both sides</p>
+	</div>
+	<div class="ui bottom attached segment scroll-bar" id="three">
+	 	<p>This segment is on bottom</p>
+	</div>
+
 </body>
