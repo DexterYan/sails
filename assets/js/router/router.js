@@ -7,7 +7,7 @@ var Router = Backbone.Router.extend({
 	firstLoad:true,
 
 	initialize: function(args){
-		console.log("index start 2");
+		console.log("Let's rock and roll");
 	},
 	indexPage: function(){
 		console.log("index start");

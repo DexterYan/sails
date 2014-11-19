@@ -2,8 +2,24 @@
 <link type="text/css" href='/styles/semantic.css' rel='stylesheet'/>
 <script data-main="/js/main-built.min" src="/js/dependencies/require.js"></script>
 <body>
-	<h2 class="ui header">
-	  Account Settingsddd
-	</h2>
-	<a href="#!/first">questions</a>
+	<div class="ui inverted menu">
+  	<a class="active item">
+    		<i class="home icon"></i> Home
+  	</a>
+  	<a class="item">
+    		<i class="mail icon"></i> Messages
+  	</a>
+  	<a class="item">
+    		<i class="user icon"></i> Friends
+  	</a>
+	</div>
+	<div class="ui selection dropdown">
+  <input type="hidden" name="gender">
+  <div class="default text">Gender</div>
+  <i class="dropdown icon"></i>
+  <div class="menu">
+    <div class="item" data-value="1">Male</div>
+    <div class="item" data-value="0">Female</div>
+  </div>
+</div>
 </body>
