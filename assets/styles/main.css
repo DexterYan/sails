@@ -14,8 +14,15 @@ body {
 }
 
 .scroll-bar{
-	background-color: #333 !important;
 	border-radius: 0px 0px 0px 0px !important;
 	box-shadow: 0px 0px 0px 0px #DDDDDD !important;
 	height: 100%;
+}
+
+.bg-black{
+	background-color: #333 !important;
+}
+
+.bg-white{
+	background-color: white !important;
 }
