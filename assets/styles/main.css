@@ -26,3 +26,7 @@ body {
 .bg-white{
 	background-color: white !important;
 }
+
+.column-image{
+	width: 60%;
+}
