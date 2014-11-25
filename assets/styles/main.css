@@ -2,6 +2,19 @@ body {
 	margin:0px;
 }
 
+.top.row{
+	margin-top: 2.5% !important;
+}
+
+.middle.row{
+	margin-top: -1.5% !important;
+	padding: 0% 4% 0% !important; 
+}
+
+.bottom.row{
+	margin-top: 0% !important;
+}
+
 .top-bar{
 	border-radius: 0px !important;
 	top: 0px;
@@ -29,4 +42,8 @@ body {
 
 .column-image{
 	width: 60%;
+}
+
+.middle-p{
+	font-size: 1.2em;
 }
