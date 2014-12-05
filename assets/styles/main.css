@@ -14,6 +14,14 @@ body {
 	width: 100%
 }
 
+#four_tab .top.row{
+	margin-top: 8.5% !important;
+}
+
+#four_tab .top.row .column-image{
+	width: 100%
+}
+
 .middle.row{
 	margin-top: -1.5% !important;
 	padding: 0% 4% 0% !important; 
