@@ -25,4 +25,8 @@ supervisor -i .tmp,views  app.js
 My example website [Dexter Yan website](www.dexteryan.com)
 The main website is deployed in BAE, you will jump to [baidu application domin](http://yanshaocong.duapp.com/)
 
+# Developing
+- a single web application based on backbone
+- More UI is coming soon.
+- A newsfeed page to intellgent catch the news from facebook.
 
